@@ -121,3 +121,24 @@ background-color: white !important;
    border: 1px solid #e86da2 !important; 
    color: #ff4495 !important;
    }
+   .explore-text{
+      color: #ff4495;
+   }
+   .explore-heading{
+      font-size: 30px;
+      font-weight: 700;
+   }
+   /* .explore-row{
+      column-gap: 50px !important;
+   } */
+.slider-content{
+   padding: 100px 200px;
+   color: black;
+}
+.slider-content p{
+   font-size: 22px;
+}
+.slider-content h5{
+   font-size: 18px;
+   font-weight: normal;
+}
