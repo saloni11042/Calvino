@@ -1,0 +1,123 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   width: 100vw;
+}
+header{
+    background-image: url('./images/h1_hero1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.header-content{
+    padding-top: 100px !important;
+}
+.nav-btn{
+    background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%, #7db9e8 100%);
+  color: white !important;
+  border: 1px solid #ff4495 !important;
+}
+ .digital-box{
+    border: 1px solid #e86da2 !important;
+    color: #ff4495;
+    font-size: 13px;
+    width: 180px;
+    padding: 5px;
+ }
+ .btn-text{
+    font-size: 16px !important;
+ }
+ .play-icon{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px !important;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color:#e86da2;
+   
+ }
+ .play-container{
+    height: 200px !important;
+    width: 200px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #ffffff7d;
+ }
+ .header-row{
+    gap: 300px;
+ }
+ .tools{
+   background-image: url('./images/shape-2.png');
+ }
+ .card-icon{
+   width: 80px;
+   height: 80px;
+ }
+
+ .card-col {
+   position: relative;
+   z-index: 1;
+}
+.card-col::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   transform: scaleY(0);
+   transform-origin: bottom center;
+   background: black;
+   z-index: -1;
+   transition: transform 0.4s;
+   border-radius: 6px;
+ 
+}
+.card-col:hover::after {
+   transform: scaleY(1);
+}
+.card-col:hover{
+   color: white;
+}
+.pricing{
+   background-color: #F8FBFE;
+}
+.price-card{
+   background-color: #F8FBFE !important;
+   border: none !important;
+}
+.card-price-icon{
+   background-color:aliceblue;
+   height: 100px;
+   width: 100px;
+}
+.price-list{
+   list-style: none;
+}
+.price-btn{
+background: linear-gradient(to bottom, #ff4495 0%, #ff6d6d 100%, #7db9e8 100%);
+  color: white !important;
+  border: 1px solid #ff4495 !important;
+}
+.web-font{
+   color: #ff4495 !important;
+}
+.price-card:hover{
+box-shadow: 0px 0px 10px #ff6d6d;
+background-color: white !important;
+  
+}
+.price-card:hover .price-btn{
+   background: white !important;
+   border: 1px solid #e86da2 !important; 
+   color: #ff4495 !important;
+   }
