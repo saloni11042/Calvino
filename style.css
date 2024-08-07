@@ -142,3 +142,24 @@ background-color: white !important;
    font-size: 18px;
    font-weight: normal;
 }
+.contact{
+   background-image: url('./images/contact-bg.jpg.webp');
+   padding: 50px;
+   background-repeat: no-repeat;
+}
+.contact-col{
+   background-image: url('./images/bg-2.png') !important;
+   z-index: 5;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+.contact-info{
+   padding-left: 50px;
+   padding-right: 200px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   gap: 20px;
+}
+.footer1{
+   background-image: url('./images/footer-bg.jpg');
+}
