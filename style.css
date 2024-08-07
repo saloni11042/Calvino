@@ -163,3 +163,10 @@ background-color: white !important;
 .footer1{
    background-image: url('./images/footer-bg.jpg');
 }
+.contact-btn{
+   background-color: transparent;
+   color: white !important;
+  border: 1px solid white !important;
+  position: relative;
+   z-index: 1;
+}
